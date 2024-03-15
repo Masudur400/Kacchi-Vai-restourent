@@ -15,8 +15,8 @@ const Currentlycooking = ({item,idx,totalTime,totalCalories}) => {
         </div>
 
         <div className='flex justify-around'>
-        <h3>Total Time = {totalTime} minutes</h3>
-        <h3>Total Calories = {totalCalories} calories</h3>
+        <h3>Total Time = <br />{totalTime} minutes</h3>
+        <h3>Total Calories = <br />{totalCalories} calories</h3>
         </div>
 
 
