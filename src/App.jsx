@@ -1,13 +1,15 @@
+import Navbar from "./components/Navbar/Navbar"
+
  
 
 function App() {
    
 
   return (
-    <>
-       
-      <h1>Vite + React</h1>
-       
+    <> 
+      <div className="container mx-auto px-10 mt-10">
+      <Navbar></Navbar>
+      </div> 
     </>
   )
 }
