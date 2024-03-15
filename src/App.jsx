@@ -85,7 +85,7 @@ function App() {
               ></WantToCook>)
             }
 
-             <div>
+             <div className="mt-14">
               <h3 className="text-2xl font-semibold my-4 text-center">Currently cooking:{currentlyCooking.length}</h3>
 
               <div className="flex justify-around my-5">
