@@ -63,7 +63,7 @@ function App() {
 
             {
               wantToCook.map((singleCard,idx) => <WantToCook
-              key={singleCard.id}
+              key={singleCard.index}
               singleCard ={singleCard}
               idx={idx}
               ></WantToCook> )

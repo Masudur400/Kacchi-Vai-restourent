@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 
-const WantToCook = ({singleCard,idx}) => {
+const WantToCook = ({ singleCard, idx }) => {
     console.log(singleCard)
-    const {recipe_name,preparing_time,calories}=singleCard;
+    const { recipe_name, preparing_time, calories } = singleCard;
     return (
         <div className='flex justify-between mb-5'>
-             
+
             <h3>{idx + 1}.{recipe_name}</h3>
             <h3>{preparing_time}</h3>
             <h3>{calories}</h3>
@@ -15,8 +15,9 @@ const WantToCook = ({singleCard,idx}) => {
 };
 
 
-WantToCook.proptypes = {
+WantToCook.propTypes = {
     singleCard: PropTypes.object.isRequired,
+    idx: PropTypes.number.isRequired,
 }
 
 export default WantToCook;
