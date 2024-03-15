@@ -1,33 +1,33 @@
 [
     {
-      "recipe_image": "https://i.ibb.co/0tLQjFg/Recipe1.jpg",
+      "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
       "recipe_id": "1",
       "recipe_name": "Spaghetti Carbonara",
       "description": "Classic Italian pasta dish with creamy sauce, bacon, and cheese.",
-      "ingredients": ["spaghetti", "bacon", "eggs", "Parmesan cheese", "black pepper"],
+      "ingredients": ["spaghetti", "bacon", "eggs", "Parmesan cheese" ],
       "preparing_time": "30 minutes",
       "calories": "450 calories"
     },
     {
-      "recipe_image": "https://i.ibb.co/gmgdHjC/Recipe2.jpg",
+      "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
       "recipe_id": "2",
       "recipe_name": "Grilled Chicken Salad",
       "description": "Fresh salad with grilled chicken, mixed greens, and balsamic vinaigrette.",
-      "ingredients": ["chicken breasts", "mixed greens", "tomatoes", "cucumbers", "balsamic vinaigrette"],
+      "ingredients": ["chicken breasts", "mixed greens", "tomatoes"],
       "preparing_time": "20 minutes",
       "calories": "300 calories"
     },
     {
-      "recipe_image": "https://i.ibb.co/QpJ1jKr/Recipe3.jpg",
+      "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
       "recipe_id": "3",
       "recipe_name": "Vegetable Stir-Fry",
       "description": "Healthy stir-fry with assorted vegetables and tofu, seasoned with soy sauce.",
-      "ingredients": ["tofu", "broccoli", "bell peppers", "carrots", "soy sauce"],
+      "ingredients": ["tofu", "broccoli", "bell peppers", "carrots"],
       "preparing_time": "25 minutes",
       "calories": "250 calories"
     },
     {
-      "recipe_image": "https://i.ibb.co/vLNdb6Z/Recipe4.webp",
+      "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
       "recipe_id": "4",
       "recipe_name": "BBQ Pulled Pork Sandwiches",
       "description": "Slow-cooked pulled pork sandwiches smothered in barbecue sauce.",
@@ -40,7 +40,7 @@
       "recipe_id": "5",
       "recipe_name": "Mushroom Risotto",
       "description": "Creamy Italian rice dish cooked with mushrooms and Parmesan cheese.",
-      "ingredients": ["arborio rice", "mushrooms", "onion", "white wine", "vegetable broth"],
+      "ingredients": ["onion", "white wine", "vegetable broth","broccoli", "carrots"],
       "preparing_time": "45 minutes",
       "calories": "400 calories"
     },
@@ -49,7 +49,7 @@
       "recipe_id": "6",
       "recipe_name": "Teriyaki Salmon",
       "description": "Grilled salmon fillets glazed with teriyaki sauce, served with steamed rice and vegetables.",
-      "ingredients": ["salmon fillets", "teriyaki sauce", "rice", "broccoli", "carrots"],
+      "ingredients": ["salmon fillets", "teriyaki sauce", "rice", "broccoli"],
       "preparing_time": "25 minutes",
       "calories": "350 calories"
     }
