@@ -30,6 +30,10 @@ function App() {
   };
   // console.log(wantToCook);
 
+  const handlePreparing = (id) ={
+    console.log(id);
+  }
+
 
   return (
     <>
@@ -67,6 +71,8 @@ function App() {
               key={singleCard.index}
               singleCard ={singleCard}
               idx={idx}
+              handlePreparing={handlePreparing}
+              
               ></WantToCook> )
             }
 
