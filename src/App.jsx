@@ -30,9 +30,10 @@ function App() {
   };
   // console.log(wantToCook);
 
-  const handlePreparing = (id) ={
-    console.log(id);
-  }
+   const handlePreparing = (id) =>{
+    const preparing = wantToCook.filter(item=>item.id  !== id)
+    setWantToCook(preparing)
+   }
 
 
   return (
@@ -70,7 +71,7 @@ function App() {
               wantToCook.map((singleCard,idx) => <WantToCook
               key={singleCard.index}
               singleCard ={singleCard}
-              idx={idx}
+              idx={idx} 
               handlePreparing={handlePreparing}
               
               ></WantToCook> )

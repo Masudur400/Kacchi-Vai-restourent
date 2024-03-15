@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const WantToCook = ({ singleCard, idx }) => {
+const WantToCook = ({ singleCard, idx, handlePreparing}) => {
     // console.log(singleCard)
     const { recipe_name, preparing_time, calories } = singleCard;
     return (
@@ -9,7 +9,7 @@ const WantToCook = ({ singleCard, idx }) => {
             <h3>{idx + 1}. {recipe_name}</h3>
             <h3 className='ml-3'>{preparing_time} minutes</h3>
             <h3 className='ml-3'>{calories} calories</h3>
-            <button className='bg-green-500 text-white px-3 rounded-full  '>Preparing</button>
+            <button onClick={()=>handlePreparing(singleCard.id)} className='bg-green-500 text-white px-3 rounded-full  '>Preparing</button>
         </div>
     );
 };
@@ -18,6 +18,7 @@ const WantToCook = ({ singleCard, idx }) => {
 WantToCook.propTypes = {
     singleCard: PropTypes.object.isRequired,
     idx: PropTypes.number.isRequired,
+    handlePreparing: PropTypes.func.isRequired,
 }
 
 export default WantToCook;
