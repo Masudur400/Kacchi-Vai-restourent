@@ -10,7 +10,7 @@ const WantToCook = ({ singleCard, idx, handlePreparing }) => {
                 <h3>{idx + 1}. {recipe_name}</h3>
                 <h3 className='ml-3'>{preparing_time} minutes</h3>
                 <h3 className='ml-3'>{calories} calories</h3>
-                <button onClick={() => handlePreparing(singleCard.id ,singleCard)} className='bg-green-500 text-white px-3 rounded-full  '>Preparing</button>
+                <button onClick={() => handlePreparing(singleCard.id ,singleCard,preparing_time,calories)} className='bg-green-500 text-white px-3 rounded-full  '>Preparing</button>
 
             </div> 
         </div>

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'; 
 
-const Currentlycooking = ({item,idx}) => {
-    console.log(item.recipe_name)
+const Currentlycooking = ({item,idx,totalTime,totalCalories}) => {
+    // console.log(item.recipe_name)
     const {recipe_name,preparing_time,calories} = item;
     return (
         <div>
@@ -14,7 +14,12 @@ const Currentlycooking = ({item,idx}) => {
             </div> 
         </div>
 
-        
+        <div className='flex justify-around'>
+        <h3>Total Time = {totalTime} minutes</h3>
+        <h3>Total Calories = {totalCalories} calories</h3>
+        </div>
+
+
         </div>
     );
 };

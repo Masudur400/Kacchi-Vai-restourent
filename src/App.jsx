@@ -12,6 +12,8 @@ function App() {
   const [cards, setCards] = useState([]);
   const [wantToCook, setWantToCook] = useState([]);
   const [currentlyCooking, setCurrentlyCooking] = useState([]);
+  const [totalTime,setTotalTime]=useState(0);
+  const [totalCalories,setTotalCalories]=useState(0);
 
   useEffect(() => {
     fetch('fakeData.json')
@@ -32,11 +34,14 @@ function App() {
   };
   // console.log(wantToCook);
 
-  const handlePreparing = (id, card) => {
-    const preparing = wantToCook.filter(item => item.id !== id)
-    setWantToCook(preparing)
-    setCurrentlyCooking([...currentlyCooking,card])
+  const handlePreparing = (id, card,time,calories) => {
+    const preparing = wantToCook.filter(item => item.id !== id);
+    setWantToCook(preparing);
+    setCurrentlyCooking([...currentlyCooking,card]); 
+    setTotalTime(totalTime+time);
+    setTotalCalories(totalCalories+calories)
   }
+  // console.log(totalCalories);
 
 
   return (
@@ -92,6 +97,8 @@ function App() {
             {
               currentlyCooking.map((item,idx) => <Currentlycooking
               key={item.indes}
+              totalTime={totalTime}
+              totalCalories={totalCalories}
               item={item}
               idx={idx}
               ></Currentlycooking>)
