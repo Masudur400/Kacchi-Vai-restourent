@@ -2,5 +2,8 @@
 
 .header-container{
     background-image:url('/src/assets/images/cover.png');
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
    
 }
