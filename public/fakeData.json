@@ -5,8 +5,8 @@
       "recipe_name": "Spaghetti Carbonara",
       "description": "Classic Italian pasta dish with creamy sauce, bacon, and cheese.",
       "ingredients": ["spaghetti", "bacon", "eggs", "Parmesan cheese" ],
-      "preparing_time": "30 minutes",
-      "calories": "450 calories"
+      "preparing_time": 30,
+      "calories": 450
     },
     {
       "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
@@ -14,8 +14,8 @@
       "recipe_name": "Grilled Chicken Salad",
       "description": "Fresh salad with grilled chicken, mixed greens, and balsamic vinaigrette.",
       "ingredients": ["chicken breasts", "mixed greens", "tomatoes"],
-      "preparing_time": "20 minutes",
-      "calories": "300 calories"
+      "preparing_time": 20,
+      "calories": 300
     },
     {
       "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
@@ -23,8 +23,8 @@
       "recipe_name": "Vegetable Stir-Fry",
       "description": "Healthy stir-fry with assorted vegetables and tofu, seasoned with soy sauce.",
       "ingredients": ["tofu", "broccoli", "bell peppers", "carrots"],
-      "preparing_time": "25 minutes",
-      "calories": "250 calories"
+      "preparing_time": 25,
+      "calories": 259
     },
     {
       "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
@@ -32,8 +32,8 @@
       "recipe_name": "BBQ Pulled Pork Sandwiches",
       "description": "Slow-cooked pulled pork sandwiches smothered in barbecue sauce.",
       "ingredients": ["pork shoulder", "barbecue sauce", "hamburger buns", "coleslaw", "pickles"],
-      "preparing_time": "6 hours",
-      "calories": "600 calories"
+      "preparing_time": 47,
+      "calories": 700
     },
     {
       "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
@@ -41,8 +41,8 @@
       "recipe_name": "Mushroom Risotto",
       "description": "Creamy Italian rice dish cooked with mushrooms and Parmesan cheese.",
       "ingredients": ["onion", "white wine", "vegetable broth","broccoli", "carrots"],
-      "preparing_time": "45 minutes",
-      "calories": "400 calories"
+      "preparing_time": 40,
+      "calories": 400
     },
     {
       "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
@@ -50,8 +50,8 @@
       "recipe_name": "Teriyaki Salmon",
       "description": "Grilled salmon fillets glazed with teriyaki sauce, served with steamed rice and vegetables.",
       "ingredients": ["salmon fillets", "teriyaki sauce", "rice", "broccoli"],
-      "preparing_time": "25 minutes",
-      "calories": "350 calories"
+      "preparing_time": 56,
+      "calories": 350
     }
   ]
   

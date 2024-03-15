@@ -27,8 +27,8 @@ const CardContainer = ({card,handleWantToCook}) => {
             <hr />
 
                 <div className="flex justify-around my-5">
-                <p className="flex gap-2"><IoMdClock></IoMdClock> {preparing_time}</p>
-                <p className="flex gap-2"><FaFire></FaFire> {calories}</p>
+                <p className="flex gap-2 justify-center items-center"><IoMdClock></IoMdClock> {preparing_time} minutes</p>
+                <p className="flex gap-2 justify-center items-center"><FaFire></FaFire> {calories} calories</p>
                 </div>
 
                 <div className="flex justify-center items-center mb-5">
