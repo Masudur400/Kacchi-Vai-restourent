@@ -3,7 +3,8 @@ import { FaFire } from "react-icons/fa";
 import PropTypes from 'prop-types';
 
 
-const CardContainer = ({card}) => {
+const CardContainer = ({card,handleWantToCook}) => {
+    // console.log(card);
 
     const {recipe_image,recipe_name,description,ingredients,preparing_time,calories}=card;
 
@@ -31,7 +32,7 @@ const CardContainer = ({card}) => {
                 </div>
 
                 <div className="flex justify-center items-center mb-5">
-                    <button className="text-xl font-bold bg-green-500 text-white px-5 py-2 rounded-full">Want to Cook</button>
+                    <button onClick={()=>handleWantToCook(card)} className="text-xl font-bold bg-green-500 text-white px-5 py-2 rounded-full">Want to Cook</button>
                 </div>
 
         </div>
@@ -42,6 +43,7 @@ const CardContainer = ({card}) => {
 
 CardContainer.propTypes={
 card: PropTypes.object.isRequired,
+handleWantToCook: PropTypes.func.isRequired,
 }
 
 export default CardContainer;

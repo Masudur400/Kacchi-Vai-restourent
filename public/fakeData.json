@@ -1,7 +1,7 @@
 [
     {
       "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
-      "recipe_id": "1",
+      "id": "1",
       "recipe_name": "Spaghetti Carbonara",
       "description": "Classic Italian pasta dish with creamy sauce, bacon, and cheese.",
       "ingredients": ["spaghetti", "bacon", "eggs", "Parmesan cheese" ],
@@ -10,7 +10,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
-      "recipe_id": "2",
+      "id": "2",
       "recipe_name": "Grilled Chicken Salad",
       "description": "Fresh salad with grilled chicken, mixed greens, and balsamic vinaigrette.",
       "ingredients": ["chicken breasts", "mixed greens", "tomatoes"],
@@ -19,7 +19,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
-      "recipe_id": "3",
+      "id": "3",
       "recipe_name": "Vegetable Stir-Fry",
       "description": "Healthy stir-fry with assorted vegetables and tofu, seasoned with soy sauce.",
       "ingredients": ["tofu", "broccoli", "bell peppers", "carrots"],
@@ -28,7 +28,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
-      "recipe_id": "4",
+      "id": "4",
       "recipe_name": "BBQ Pulled Pork Sandwiches",
       "description": "Slow-cooked pulled pork sandwiches smothered in barbecue sauce.",
       "ingredients": ["pork shoulder", "barbecue sauce", "hamburger buns", "coleslaw", "pickles"],
@@ -37,7 +37,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
-      "recipe_id": "5",
+      "id": "5",
       "recipe_name": "Mushroom Risotto",
       "description": "Creamy Italian rice dish cooked with mushrooms and Parmesan cheese.",
       "ingredients": ["onion", "white wine", "vegetable broth","broccoli", "carrots"],
@@ -46,7 +46,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
-      "recipe_id": "6",
+      "id": "6",
       "recipe_name": "Teriyaki Salmon",
       "description": "Grilled salmon fillets glazed with teriyaki sauce, served with steamed rice and vegetables.",
       "ingredients": ["salmon fillets", "teriyaki sauce", "rice", "broccoli"],

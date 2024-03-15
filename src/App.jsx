@@ -2,19 +2,33 @@ import { useEffect, useState } from "react"
 import Header from "./components/Header/Header"
 import Navbar from "./components/Navbar/Navbar"
 import OurRecipe from "./components/OurRecipe/OurRecipe"
-import CardContainer from "./components/CardContainer/CardContainer";
-
+import CardContainer from "./components/CardContainer/CardContainer"; 
+import WantToCook from "./components/WantToCook/WantToCook";
 
 
 function App() {
 
   const [cards, setCards] = useState([]);
+  const [wantToCook, setWantToCook]= useState([]);
 
   useEffect(() => {
     fetch('fakeData.json')
       .then(res => res.json())
       .then(data => setCards(data))
   }, []); 
+
+
+  const handleWantToCook = (item)=>{
+    const inExiest = wantToCook.find(cd => cd.id === item.id)
+    if(!inExiest){
+      setWantToCook([...wantToCook,item])
+    } 
+    else{
+      alert('already have.')
+    }
+    
+  };
+  // console.log(wantToCook);
 
 
   return (
@@ -30,12 +44,33 @@ function App() {
               cards.map(card => <CardContainer
               key={card.id}
               card = {card}
+              handleWantToCook={handleWantToCook}
+
               
               ></CardContainer>)
             } 
           </div> 
 
           <div className="w-1/3">
+            <h3 className="text-2xl font-semibold my-4">Want to cook: 01</h3>
+            <hr />
+
+            <div className="flex justify-around my-5">
+               <p className="font-bold"> Title</p>
+               <p className="font-bold">Time</p>
+               <p className="font-bold">Calories</p>
+            </div>
+
+            {
+              wantToCook.map((singleCard,idx) => <WantToCook
+              key={singleCard.id}
+              singleCard ={singleCard}
+              idx={idx}
+              ></WantToCook> )
+            }
+
+             
+
 
           </div>
         </div>
