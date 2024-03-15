@@ -5,6 +5,7 @@ import OurRecipe from "./components/OurRecipe/OurRecipe"
 import CardContainer from "./components/CardContainer/CardContainer";
 import WantToCook from "./components/WantToCook/WantToCook";
 import Currentlycooking from "./components/Currentlycooking/Currentlycooking";
+import Swal from "sweetalert2";
 
 
 function App() {
@@ -28,7 +29,11 @@ function App() {
       setWantToCook([...wantToCook, item])
     }
     else {
-      alert('already have.')
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Already Exist", 
+      });
     }
 
   };
