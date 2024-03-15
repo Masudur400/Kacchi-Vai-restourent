@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Currentlycooking = ({ item, idx, totalTime, totalCalories }) => {
+const Currentlycooking = ({ item, idx}) => {
     // console.log(item.recipe_name)
     const { recipe_name, preparing_time, calories } = item;
     return (
@@ -12,11 +12,6 @@ const Currentlycooking = ({ item, idx, totalTime, totalCalories }) => {
                     <h3>{preparing_time} minutes</h3>
                     <h3>{calories} calories</h3>
                 </div>
-            </div>
-
-            <div className='flex justify-around mt-9'>
-                <h3>Total Time = <br />{totalTime} minutes</h3>
-                <h3>Total Calories = <br />{totalCalories} calories</h3>
             </div> 
         </div>
     );
@@ -25,9 +20,7 @@ const Currentlycooking = ({ item, idx, totalTime, totalCalories }) => {
 
 Currentlycooking.propTypes = {
     item: PropTypes.object.isRequired,
-    idx: PropTypes.number.isRequired,
-    totalTime: PropTypes.number.isRequired,
-    totalCalories: PropTypes.number.isRequired,
+    idx: PropTypes.number.isRequired, 
 }
 
 export default Currentlycooking;

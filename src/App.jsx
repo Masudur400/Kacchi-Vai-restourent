@@ -109,6 +109,12 @@ function App() {
               ></Currentlycooking>)
             }
              </div>
+             <div>
+             <div className='flex justify-around mt-9'>
+                <h3>Total Time = <br />{totalTime} minutes</h3>
+                <h3>Total Calories = <br />{totalCalories} calories</h3>
+            </div> 
+             </div>
 
 
 
