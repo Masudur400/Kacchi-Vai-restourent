@@ -28,6 +28,8 @@ const Currentlycooking = ({item,idx,totalTime,totalCalories}) => {
 Currentlycooking.propTypes={
     item: PropTypes.object.isRequired,
     idx: PropTypes.number.isRequired,
+    totalTime: PropTypes.number.isRequired,
+    totalCalories: PropTypes.number.isRequired,
 }
 
 export default Currentlycooking;
