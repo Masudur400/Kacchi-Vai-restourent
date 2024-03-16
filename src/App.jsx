@@ -13,8 +13,8 @@ function App() {
   const [cards, setCards] = useState([]);
   const [wantToCook, setWantToCook] = useState([]);
   const [currentlyCooking, setCurrentlyCooking] = useState([]);
-  const [totalTime,setTotalTime]=useState(0);
-  const [totalCalories,setTotalCalories]=useState(0);
+  const [totalTime, setTotalTime] = useState(0);
+  const [totalCalories, setTotalCalories] = useState(0);
 
   useEffect(() => {
     fetch('fakeData.json')
@@ -32,19 +32,19 @@ function App() {
       Swal.fire({
         icon: "error",
         title: "Oops...",
-        text: "Already Exist", 
+        text: "Already Exist",
       });
     }
 
   };
   // console.log(wantToCook);
 
-  const handlePreparing = (id, card,time,calories) => {
+  const handlePreparing = (id, card, time, calories) => {
     const preparing = wantToCook.filter(item => item.id !== id);
     setWantToCook(preparing);
-    setCurrentlyCooking([...currentlyCooking,card]); 
-    setTotalTime(totalTime+time);
-    setTotalCalories(totalCalories+calories)
+    setCurrentlyCooking([...currentlyCooking, card]);
+    setTotalTime(totalTime + time);
+    setTotalCalories(totalCalories + calories)
   }
   // console.log(totalCalories);
 
@@ -90,43 +90,44 @@ function App() {
               ></WantToCook>)
             }
 
-             <div className="mt-14">
+            <div className="mt-14">
               <h3 className="text-2xl font-semibold my-4 text-center">Currently cooking:{currentlyCooking.length}</h3>
 
-              <div className="flex justify-around my-5">
-              <p className="font-bold"> Title</p>
-              <p className="font-bold">Time</p>
-              <p className="font-bold">Calories</p>
-              <p></p>
+              <div className="flex justify-around  my-5">
+                <p></p>
+                <p className="font-bold"> Title</p>
+                <p className="font-bold">Time</p>
+                <p className="font-bold">Calories</p>
+                <p></p>
+              </div>
+              {
+                currentlyCooking.map((item, idx) => <Currentlycooking
+                  key={item.indes}
+                  totalTime={totalTime}
+                  totalCalories={totalCalories}
+                  item={item}
+                  idx={idx}
+                ></Currentlycooking>)
+              }
             </div>
-            {
-              currentlyCooking.map((item,idx) => <Currentlycooking
-              key={item.indes}
-              totalTime={totalTime}
-              totalCalories={totalCalories}
-              item={item}
-              idx={idx}
-              ></Currentlycooking>)
-            }
-             </div>
-             <div>
-             <div className='flex justify-around mt-9'>
+            <div>
+              <div className='flex justify-around mt-9 py-6 shadow-xl rounded-md'>
                 <h3>Total Time = <br />{totalTime} minutes</h3>
                 <h3>Total Calories = <br />{totalCalories} calories</h3>
-            </div> 
-             </div>
-
-
-
-
+              </div>
             </div>
+
+
+
+
           </div>
-
-
-
         </div>
-      </>
-      )
+
+
+
+      </div>
+    </>
+  )
 }
 
-      export default App
+export default App

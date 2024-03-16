@@ -11,7 +11,7 @@ const CardContainer = ({card,handleWantToCook}) => {
     return (
         <div className="mb-10 border-2 border-gray-200 shadow-xl px-5 rounded-xl">
            <div  className="mb-5 flex justify-center items-center" >
-           <img className="m-5" src={recipe_image} alt="" />
+           <img className="m-5 w-80 h-52 rounded-xl" src={recipe_image} alt="" />
            </div>
             <h2 className="text-xl font-semibold mb-4">{recipe_name}</h2>
             <p className="text-lg mb-4">{description}</p>

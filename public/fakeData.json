@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
+      "recipe_image": "https://i.ibb.co/MnWcGLp/Spaghetti-Carbonara1.jpg",
       "id": "1",
       "recipe_name": "Spaghetti Carbonara",
       "description": "Classic Italian pasta dish with creamy sauce, bacon, and cheese.",
@@ -9,7 +9,7 @@
       "calories": 450
     },
     {
-      "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
+      "recipe_image": "https://i.ibb.co/CKzJqdP/cicken-salad.jpg",
       "id": "2",
       "recipe_name": "Grilled Chicken Salad",
       "description": "Fresh salad with grilled chicken, mixed greens, and balsamic vinaigrette.",
@@ -18,7 +18,7 @@
       "calories": 300
     },
     {
-      "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
+      "recipe_image": "https://i.ibb.co/94LtzgL/Vegetable-Stir-Fry3.jpg",
       "id": "3",
       "recipe_name": "Vegetable Stir-Fry",
       "description": "Healthy stir-fry with assorted vegetables and tofu, seasoned with soy sauce.",
@@ -27,7 +27,7 @@
       "calories": 259
     },
     {
-      "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
+      "recipe_image": "https://i.ibb.co/pyCDbb8/BBQ-Pulled-Pork-Sandwiches4.jpg",
       "id": "4",
       "recipe_name": "BBQ Pulled Pork Sandwiches",
       "description": "Slow-cooked pulled pork sandwiches smothered in barbecue sauce.",
@@ -36,7 +36,7 @@
       "calories": 700
     },
     {
-      "recipe_image": "https://i.ibb.co/f0YnCbr/Recipe5.jpg",
+      "recipe_image": "https://i.ibb.co/m6Fhc4y/Mushroom-Risotto5.jpg",
       "id": "5",
       "recipe_name": "Mushroom Risotto",
       "description": "Creamy Italian rice dish cooked with mushrooms and Parmesan cheese.",
@@ -45,7 +45,7 @@
       "calories": 400
     },
     {
-      "recipe_image": "https://i.ibb.co/HDxzhqH/Recipe6.png",
+      "recipe_image": "https://i.ibb.co/9tH34x7/Teriyaki-Salmon6-2.jpg",
       "id": "6",
       "recipe_name": "Teriyaki Salmon",
       "description": "Grilled salmon fillets glazed with teriyaki sauce, served with steamed rice and vegetables.",

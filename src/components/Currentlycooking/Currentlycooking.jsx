@@ -6,7 +6,7 @@ const Currentlycooking = ({ item, idx}) => {
     return (
         <div>
             <div>
-                <div className='flex justify-between mb-5 py-4 px-2 rounded-md shadow-xl mt-10'>
+                <div className='flex justify-between mb-5 py-4 px-2 rounded-md shadow-lg mt-10'>
 
                     <h3>{idx + 1}. {recipe_name}</h3>
                     <h3>{preparing_time} minutes</h3>
