@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li>Search</li>
             </ul>
 
-            <div className="flex gap-2 justify-center items-center text-lg border-2 border-gray-300 rounded-full px-3 py-2">
+            <div className="flex gap-2 bg-white justify-center items-center text-lg border-2 border-gray-300 rounded-full px-3 py-2">
                 <CiSearch></CiSearch>
                 <input type="text" name="" placeholder="Search" id="" />
             </div>
