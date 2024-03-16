@@ -1,5 +1,4 @@
-import { CiSearch } from "react-icons/ci";
-import { IoBagAdd } from "react-icons/io5";
+import { CiSearch } from "react-icons/ci"; 
 import { CgProfile } from "react-icons/cg";
 
 const Navbar = () => {
