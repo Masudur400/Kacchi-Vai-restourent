@@ -1,5 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import { IoBagAdd } from "react-icons/io5";
+import { CgProfile } from "react-icons/cg";
 
 const Navbar = () => {
     return (
@@ -17,7 +18,7 @@ const Navbar = () => {
                 <CiSearch></CiSearch>
                 <input type="text" name="" placeholder="Search" id="" />
             </div>
-             <button className="bg-green-500 w-10 h-10 rounded-full text-white flex justify-center items-center"><IoBagAdd></IoBagAdd></button>  
+             <button className="bg-green-500 text-3xl font-bold w-10 h-10 rounded-full text-white flex justify-center items-center"><CgProfile></CgProfile></button>  
         </div>
     );
 };
